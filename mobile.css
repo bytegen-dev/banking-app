@@ -510,3 +510,9 @@
 
     
 }
+
+@media screen and (max-width: 300px) {
+    body{
+        display: none;
+    }
+}
