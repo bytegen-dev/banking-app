@@ -65,11 +65,19 @@
         scale: 1.05;
         box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
     }
+    
+    /* .itemi:hover{
+        margin-right:30px;
+    } */
+
+    /* .balances.itemii:hover .itemi{
+        margin-left: 30px;
+    } */
 
     .itemi{
         margin-right: 15px;
     }
-
+    
     .itemii{
         background: #222;
     }
