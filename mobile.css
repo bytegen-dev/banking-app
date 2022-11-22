@@ -47,8 +47,8 @@
     .item{
         /* border: 2px solid tomato; */
         border-radius: 25px;
-        min-width: 400px;
-        height: 220px;
+        min-width: 350px;
+        height: 200px;
         display: flex;
         flex-direction: column;
         /* align-items: center; */
@@ -58,6 +58,7 @@
         background: rgb(80, 1, 250);
         color: #fff;
         transition: all 0.7s ease;
+        /* scale: 0.9; */
     }
     
     .item:hover{
@@ -78,25 +79,25 @@
         align-items: center;
         /* border: 2px solid #fff; */
         position: relative;
-        margin-bottom: 50px;
+        margin-bottom: 55px;
     }
 
     .mc{
-        width: 60px;
+        width: 55px;
         /* height: 20px; */
     }
     
     .visa{
         align-items: center;
         justify-content: center;
-        width: 80px;
+        width: 70px;
         display: flex;
         /* border: 2px solid #fff; */
     }
     
     .visa img{
         /* object-fit: cover; */
-        height: 30px;
+        height: 20px;
         width: 100%;
     }
 
@@ -123,12 +124,12 @@
     }
 
     .acct-number span{
-        font-size: 20px;
+        font-size: 16px;
         font-weight: 400;
     }
 
     .asterisks img{
-        width: 7px;
+        width: 6px;
         margin-right: 5px;
     }
 
@@ -136,7 +137,7 @@
         /* border: 2px solid red; */
         position: absolute;
         right: 0;
-        font-size: 20px;
+        font-size: 16px;
         display: flex;
         justify-content: center;
         align-items: center;
@@ -144,13 +145,13 @@
 
     .expiry-date span{
         /* font-weight: lighter; */
-        margin: 0 3px;
-        font-size: 30px;
+        margin: 0 2px;
+        font-size: 20px;
     }
 
 
     .bal{
-        font-size: 20px;
+        font-size: 18px;
         color: rgba(230, 230, 230, 1);
         position: relative;
         right: -10px;
@@ -159,14 +160,14 @@
     }
 
     .balance{
-        margin-top: 5px;
+        margin-top: 0px;
         display: flex;
         justify-content: left;
         align-items: center;
     }
 
     .balance span{
-        font-size: 40px;
+        font-size: 30px;
         font-weight: 500;
     }
 
@@ -174,7 +175,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 35px;
+        width: 30px;
 
     }
 
@@ -199,14 +200,14 @@
     }
 
     .contain span{
-        font-size: 15px;
+        font-size: 12px;
         color: #222;
         font-weight: 400;
     }
 
     .serv:hover{
         filter: invert();
-        padding: 20px;
+        padding: 10px;
     }
 
     .services img{
@@ -214,7 +215,7 @@
     }
 
     .serv{
-        width: 70px;
+        width: 55px;
         background: #fff;
         /* border: 2px solid black; */
         box-shadow: 4px 4px 20px rgba(0, 0, 0, 0.2);
@@ -223,7 +224,7 @@
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        padding: 23px;
+        padding: 15px;
         transition: all 0.5s ease;
         margin-bottom: 13px;
     }
