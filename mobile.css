@@ -11,10 +11,7 @@
         background-color: #fff;
         min-height: 100vh;
         transform: translateX(0);
-    }
-
-    .run{
-        transform: translateX(110%);
+        overflow: hidden;
     }
 
     .info{
@@ -43,101 +40,6 @@
     }
 
 
-    .notifications{
-        position: fixed;
-        width: 100vw;
-        min-height: 100vh;
-        background-image: linear-gradient(rgba(154, 154, 255, 0.4), rgba(84, 84, 183, 0.515)), url(./icons/wallpaper.png);
-        z-index: 0;
-        color: #fff;
-        background-repeat: no-repeat;
-        background-size: contain;
-        background-position: center;
-        background-color: black;
-        justify-content: center;
-        align-items: center;
-        overflow-x: hidden;
-        overflow-y: hidden;
-    }
-    
-    .blur{
-        /* filter: blur(5px); */
-        /* opacity: 0; */
-        /* visibility: hidden; */
-        overflow-x: hidden;
-        overflow-y: hidden;
-        animation: unblur;
-        animation-timing-function: ease;
-        animation-duration: 1.5s;
-        animation-iteration-count: 1;
-        animation-fill-mode: forwards;
-    }
-
-    @keyframes unblur {
-        0%{filter: blur(5px);}
-        100%{filter: blur(0);}
-    }
-
-    .notifications span{
-        position: absolute;
-        top: 150px;
-        text-transform: uppercase;
-        left: 30px;
-        font-size: 20px;
-        font-weight: bolder;
-        letter-spacing: 2px;
-    }
-
-    .hamburger{
-        width: 50px;
-        height: 50px;
-        position: fixed;
-        top: 20px;
-        right: 20px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        cursor: pointer;
-        z-index: 1;
-    }
-    
-    .hamburger:hover{
-        background: rgba(0, 0, 0, 0.361);
-
-    }
-
-
-
-    .menu{
-        border-radius: 10px;
-        width: 100%;
-        height: 4px;
-        background: transparent;
-        position: relative;
-    }
-
-    .menu::before{
-        content: "";
-        height: 4px;
-        position: absolute;
-        width: 80%;
-        background: rgba(255, 255, 255, 0.634);
-        border-radius: 10px;
-        top: 0px;
-        transform: rotate(45deg);
-    }
-    .menu::after{
-        content: "";
-        height: 4px;
-        position: absolute;
-        width: 80%;
-        background: rgba(255, 255, 255, 0.666);
-        border-radius: 10px;
-        top: 0px;
-        transform: rotate(-45deg);
-    }
-
-
 
     .alarms::before{
         position: absolute;
@@ -152,24 +54,20 @@
         /* scale: 1; */
         opacity: 0;
         animation: alarm;
-        animation-delay: 5s;
+        animation-delay: 3s;
         animation-fill-mode: forwards;
         animation-timing-function: ease;
-        animation-duration: 1s;
+        animation-duration: 0.25s;
         animation-iteration-count: 1;
     }
 
     @keyframes alarm {
         0%{opacity: 0;
-        scale: 0.5;}
+        scale: 0;}
         /* 50%{scale: 1.15;} */
         100%{opacity: 1;
             background: rgba(255, 0, 0, 0.7);
         scale: 1;}
-    }
-
-    .drop{
-        scale: 1.15;
     }
 
     .alarms img{
@@ -330,8 +228,8 @@
     .itemii .balance span{
         filter: blur(6px);
     }
-
-    .balance:hover span{
+    
+    .hidde .balance span{
         filter: blur(0);
     }
 
