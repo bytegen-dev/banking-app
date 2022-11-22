@@ -47,7 +47,7 @@
     .item{
         /* border: 2px solid tomato; */
         border-radius: 25px;
-        min-width: 310px;
+        min-width: 90%;
         height: 190px;
         display: flex;
         flex-direction: column;
