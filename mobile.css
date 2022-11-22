@@ -22,7 +22,7 @@
         display: flex;
         align-items: center;
         justify-content: center;
-        width: 50px;
+        width: 45px;
         padding: 5px;
     }
 
@@ -55,7 +55,7 @@
         justify-content: space-between;
         /* padding: 30px; */
         padding: 15px 30px;
-        background: rgb(80, 1, 250);
+        background: rgba(90, 63, 213, 0.993);
         color: #fff;
         transition: all 0.7s ease;
         /* scale: 0.9; */
