@@ -64,6 +64,8 @@
         /* filter: blur(5px); */
         /* opacity: 0; */
         /* visibility: hidden; */
+        overflow-x: hidden;
+        overflow-y: hidden;
         animation: unblur;
         animation-timing-function: ease;
         animation-duration: 1.5s;
