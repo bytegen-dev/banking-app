@@ -381,10 +381,10 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        margin-bottom: 15px;
+        margin-bottom: 20px;
     }
 
-    .profile{
+    .transi .profile{
         width: 50px;
         border-radius: 50%;
         padding: 8px;
@@ -394,8 +394,54 @@
         background: #000;
     }
 
+    .profile{
+        width: 50px;
+        /* height: 50px; */
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 50%;
+        padding: 8px;
+        /* border: 2px solid black; */
+    }
+
+    .transi .profile img{
+        padding: 0;
+    }
+
     .profile img{
         width: 100%;
+    }
+
+    .transii .profile{
+        background: rgba(24, 24, 163, 0.781);
+    }
+    
+    .transv .profile{
+        background: rgba(24, 24, 163, 0.781);
+    }
+
+    .transiii .profile{
+        border: 2px solid gold;
+    }
+
+    .transiv .profile{
+        background: green;
+    }
+
+    .transvi .profile{
+        background: #000;
+        padding: 3px;
+    }
+
+    .transvii .profile{
+        background: rgb(5, 177, 245);
+    } 
+
+    .transviii .profile{
+        background: black;
+        padding: 10px;
     }
 
     .details{
@@ -414,7 +460,7 @@
     }
 
     .details .more-info{
-        color: #777;
+        color: #999;
     }
 
     .price{
