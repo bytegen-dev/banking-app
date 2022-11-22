@@ -80,6 +80,7 @@
     
     .itemii{
         background: #222;
+        min-width: 95%;
     }
 
     .card-details{
