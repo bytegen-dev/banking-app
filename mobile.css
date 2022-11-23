@@ -337,7 +337,7 @@
         /* bottom: 0; */
         /* transform: translateY(200px); */
         z-index: 1;
-        transition: all 1s;
+        transition: all 0.5s;
         
     }
     
@@ -345,6 +345,7 @@
         /* transform: translateY(0); */
         box-shadow: 1px -2px 100px rgba(0, 0, 0, 0.15);
         bottom: 0;
+        transition: all 1s;
         /* height: 80vh; */
     }
 
