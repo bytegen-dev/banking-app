@@ -1,13 +1,20 @@
 @media screen and (max-width : 880px) {
+
+    html{
+        height: -webkit-fill-available;
+    }
+    
     body{
         visibility: visible;
         overflow-x: hidden;
+        height: 100vh;
         -webkit-tap-highlight-color: transparent;
         animation: zoom;
         animation-timing-function: ease-in-out;
         animation-duration: 3s;
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
+        height: -webkit-fill-available;
         /* display: flex; */
     }
 
