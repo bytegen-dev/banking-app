@@ -366,9 +366,10 @@
         transition: all 1s;
         cursor: pointer;
     }
-
+    
     .pulll{
         width: 80px;
+        transition: all 1s;
     }
 
     .recent{
