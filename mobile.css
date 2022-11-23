@@ -337,7 +337,7 @@
         /* bottom: 0; */
         /* transform: translateY(200px); */
         z-index: 1;
-        transition: all 1s ease;
+        transition: all 1s;
         
     }
     
@@ -362,7 +362,7 @@
         border-radius: 20px;
         opacity: 0.35;
         margin-bottom: 25px;
-        transition: all 1s ease;
+        transition: all 1s;
         cursor: pointer;
     }
 
