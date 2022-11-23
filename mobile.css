@@ -534,13 +534,13 @@
     }
 
     .balances, .services, .info{
-        transition: all 0.7s;
+        transition: all 0.5s;
     }
 
 
     .brr{
         filter: blur(5px);
-        transition: all 1s;
+        transition: all 0.7s;
         /* z-index: -1; */
     }
 
