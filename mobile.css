@@ -337,7 +337,7 @@
         /* bottom: 0; */
         /* transform: translateY(200px); */
         z-index: 1;
-        transition: all 0.5s;
+        transition: all 0.8s;
         
     }
     
@@ -536,13 +536,13 @@
     }
 
     .balances, .services, .info{
-        transition: all 0.5s;
+        transition: all 0.8s;
     }
 
 
     .brr{
         filter: blur(5px);
-        transition: all 0.7s;
+        transition: all 1s;
         /* z-index: -1; */
     }
 
