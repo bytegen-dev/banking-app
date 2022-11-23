@@ -3,7 +3,17 @@
         visibility: visible;
         overflow-x: hidden;
         -webkit-tap-highlight-color: transparent;
+        animation: zoom;
+        animation-timing-function: ease-in-out;
+        animation-duration: 3s;
+        animation-fill-mode: forwards;
+        animation-iteration-count: 1;
         /* display: flex; */
+    }
+
+    @keyframes zoom {
+        0%{filter: blur(5px);}
+        100%{filter: blur(0);}
     }
 
     .container{
@@ -23,8 +33,14 @@
         /* border: 2px solid green; */
     }
 
+    .info a{
+        text-decoration: none;
+    }
+
     .text h1{
         font-size: 30px;
+        cursor: pointer;
+        color: #333;
     }
 
     .alarms{
@@ -54,11 +70,12 @@
         /* scale: 1; */
         opacity: 0;
         animation: alarm;
-        animation-delay: 3s;
+        animation-delay: 1s;
         animation-fill-mode: forwards;
         animation-timing-function: ease;
-        animation-duration: 0.25s;
-        animation-iteration-count: 1;
+        animation-duration: 2.5s;
+        animation-iteration-count: infinite;
+        animation-direction: alternate;
     }
 
     @keyframes alarm {
@@ -208,6 +225,7 @@
         color: rgba(230, 230, 230, 1);
         position: relative;
         right: -10px;
+        cursor: default;
         /* opacity: 0.7; */
         /* margin-bottom: 30px; */
     }
@@ -217,6 +235,7 @@
         display: flex;
         justify-content: left;
         align-items: center;
+        cursor: default;
     }
 
     .balance span{
@@ -227,6 +246,7 @@
     
     .itemii .balance span{
         filter: blur(6px);
+        cursor: pointer;
     }
     
     .hidde .balance span{
@@ -277,6 +297,7 @@
     }
 
     .serv{
+        cursor: pointer;
         width: 55px;
         background: #fff;
         /* border: 2px solid black; */
@@ -335,6 +356,7 @@
         opacity: 0.35;
         margin-bottom: 25px;
         transition: all 1s ease;
+        cursor: pointer;
     }
 
     .pulll{
@@ -353,6 +375,7 @@
     .recent span{
         font-weight: 600;
         font-size: 17px;
+        cursor: default;
     }
 
     .search{
@@ -362,6 +385,7 @@
         align-items: center;
         padding: 4px;
         opacity: 0.8;
+        cursor: pointer;
 
     }
 
@@ -375,6 +399,13 @@
         width: 100%;
         max-height: 25vh;
         overflow-y: hidden;
+        cursor: default;
+    }
+
+    .trans-container::-webkit-scrollbar{
+        /* width: px; */
+        width: 0;
+        /* opacity: 0.4; */
     }
 
     .pull .trans-container{
@@ -397,9 +428,10 @@
         align-items: center;
         background: #000;
     }
-
+    
     .profile{
         width: 50px;
+        cursor: pointer;
         /* height: 50px; */
 
         display: flex;
@@ -473,6 +505,7 @@
         align-items: center;
         font-size: 18px;
         font-weight: bolder;
+        cursor: pointer;
     }
 
     .price span{
