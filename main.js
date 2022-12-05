@@ -25,6 +25,8 @@ function pullup(){
     document.querySelector('.info').classList.toggle('brr')
     document.querySelector('.balances').classList.toggle('brr')
     document.querySelector('.services').classList.toggle('brr')
+    document.querySelector('.audioi').volume = 0.2
+    document.querySelector('.audioi').play()
     document.querySelector('.trans-container').scrollTo({
         top:0,
         behavior: "smooth" 
