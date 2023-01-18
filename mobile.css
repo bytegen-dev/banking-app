@@ -24,7 +24,7 @@
     }
 
     .container{
-        transition: all 1s ease;
+        transition: all 0.5s ease;
         background-color: #fff;
         min-height: 100vh;
         transform: translateX(0);
@@ -51,7 +51,7 @@
     }
 
     .alarms{
-        transition: all 1s ease;
+        transition: all 0.5s ease;
         /* border: 2px solid red; */
         display: flex;
         align-items: center;
@@ -337,8 +337,9 @@
         height: 300px;
         transform: translateY(200px);
         z-index: 10;
-        transition: all 0.8s;
+        /* transition: all 0.8s; */
         background-color: #fff;
+        transition: all 0.5s;
         
     }
     
@@ -346,7 +347,6 @@
         transform: translateY(0);
         box-shadow: 1px -2px 100px rgba(0, 0, 0, 0.15);
         /* bottom: 0; */
-        transition: all 1s;
         /* height: 80vh; */
     }
 
@@ -364,13 +364,13 @@
         border-radius: 20px;
         opacity: 0.35;
         margin-bottom: 25px;
-        transition: all 1s;
+        transition: all 0.5s;
         cursor: pointer;
     }
     
     .pulll{
         width: 80px;
-        transition: all 1s;
+        transition: all 0.5s ease;
     }
 
     .recent{
