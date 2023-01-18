@@ -18,12 +18,12 @@ body{
     top: 0;
     left: 0;
     overflow: hidden;
-    background-color: #ffffffee;
-    backdrop-filter: blur(5px);
+    background-color: #ffffffff;
+    /* backdrop-filter: blur(5px); */
     display: flex;
     justify-content: center;
     align-items: center;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 .preloader-circle{
@@ -39,7 +39,7 @@ body{
     border-radius: 50%;
     box-shadow: 0px 0px 50px rgba(76, 0, 130, 0.373);
     background-color: #fff;
-    transition: all 1s ease;
+    transition: all 0.5s ease;
 }
 
 
@@ -53,7 +53,7 @@ body{
     border-radius: 50%;
     z-index: -1;
     animation: preloader 2s ease infinite forwards alternate;
-    transition: all 0.5s ease;
+    transition: all 0.25s ease;
 }
 
 @keyframes preloader {
@@ -68,8 +68,9 @@ body{
 }
 
 .hidepreloader{
+    display: none;
     /* opacity: 0; */
-    animation: hidepreloader 1s ease forwards;
+    /* animation: hidepreloader 0.5s ease forwards; */
 }
 
 @keyframes hidepreloader {
@@ -88,13 +89,13 @@ body{
 }
 
 .hidepreloader .preloader-circle{
-    scale: 0.7;
+    /* scale: 0.7; */
 }
 
 .hidepreloader .preloader-circle::before, .hidepreloader .preloader-circle::after{
     /* opacity: 0; */
-    width: 0px;
-    height: 0px;
+    /* width: 0px;
+    height: 0px; */
 }
 
 
