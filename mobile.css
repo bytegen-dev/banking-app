@@ -330,14 +330,15 @@
         justify-content: center;
         align-items: center;
         box-shadow: 1px -2px 20px rgba(0, 0, 0, 0.15);
-        height: 35vh;
         width: 100vw;
         position: fixed;
         /* bottom: -120px; */
         bottom: 0;
-        transform: translateY(27vh);
+        height: 300px;
+        transform: translateY(200px);
         z-index: 10;
         transition: all 0.8s;
+        background-color: #fff;
         
     }
     
