@@ -351,7 +351,7 @@
         z-index: 10;
         /* transition: all 0.8s; */
         background-color: #fff;
-        transition: all 0.5s ease;
+        transition: all 0.3s ease;
         
     }
     
@@ -376,13 +376,13 @@
         border-radius: 20px;
         opacity: 0.35;
         margin-bottom: 25px;
-        transition: all 0.5s;
+        transition: all 0.3s ease;
         cursor: pointer;
     }
     
     .pulll{
         width: 80px;
-        transition: all 0.5s ease;
+        /* transition: all 0.5s ease; */
     }
 
     .recent{
@@ -549,7 +549,7 @@
     }
 
     .balances, .services, .info{
-        transition: all 0.5s ease !important;
+        transition: all 0.2s ease !important;
     }
 
 
