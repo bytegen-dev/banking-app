@@ -549,20 +549,20 @@
     }
 
     .balances, .services, .info{
-        transition: all 0.5s ease;
+        transition: all 0.5s ease !important;
     }
 
 
     .brr{
-        filter: blur(5px);
-        opacity: 0.7;
-        transition: all 0.5s ease;
+        /* filter: blur(5px); */
+        opacity: 0.3;
+        /* transition: all 0.5s ease; */
         /* z-index: -1; */
     }
     
 
     .brr:hover{
-        filter: blur(0);
+        /* filter: blur(0); */
         opacity: 1;
     }
 
