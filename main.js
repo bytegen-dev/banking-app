@@ -1,19 +1,4 @@
 
-// document.querySelector('.alarms').addEventListener("click", ()=>{
-//     if (myDocument.requestFullscreen){
-//         myDocument.requestFullscreen();
-//     }
-//     else if (myDocument.mozRequestFullscreen){
-//         myDocument.mozRequestFullscreen();
-//     }
-//     else if (myDocument.msRequestFullscreen){
-//         myDocument.msRrequestFullscreen();
-//     }
-//     else if (myDocument.webkitRequestFullscreen){
-//         myDocument.webkitRequestFullscreen();
-//     }
-//     alert('hey')
-// })
 
 function blurr(){
     document.querySelector('.itemii').classList.toggle('hidde')
