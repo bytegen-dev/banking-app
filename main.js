@@ -38,3 +38,15 @@ function showii(){
         behavior: "smooth"
     })
 }
+
+function preloader(){
+    // document.getElementById("preloader").style.display = "none"
+    document.getElementById("preloader").classList.add("hidepreloader")
+    document.querySelector(".container").classList.add("normal")
+}
+
+// preloader()
+
+// const window = document.documentElement;
+
+window.addEventListener("load", setTimeout(preloader, 1500))

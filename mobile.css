@@ -15,20 +15,28 @@
         animation-fill-mode: forwards;
         animation-iteration-count: 1;
         height: -webkit-fill-available;
+        background-color: rgb(171, 94, 226);
         /* display: flex; */
     }
-
-    @keyframes zoom {
-        0%{filter: blur(5px);}
-        100%{filter: blur(0);}
-    }
-
+    
+    
     .container{
         transition: all 0.5s ease;
         background-color: #fff;
-        min-height: 100vh;
-        transform: translateX(0);
+        transform: perspective(500px) rotateY(-90deg);
+        height: 100vh;
+        /* transform: translateX(0); */
         overflow: hidden;
+        border-radius: 30px;
+        box-shadow: 0px 0px 10px rgba(76, 0, 130, 0.429);
+        scale: 0.9;
+        transition: all 1s ease;
+    }
+
+    .container.normal{
+        transform: perspective(500px) rotateY(0deg);
+        scale: 1;
+        border-radius: 0px;
     }
 
     .info{
