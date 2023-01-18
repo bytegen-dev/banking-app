@@ -6,7 +6,7 @@
     
     body{
         visibility: visible;
-        overflow-x: hidden;
+        overflow: hidden;
         /* height: 100vh; */
         -webkit-tap-highlight-color: transparent;
         animation: zoom;
@@ -336,7 +336,7 @@
         /* bottom: -120px; */
         bottom: 0;
         transform: translateY(200px);
-        z-index: 1;
+        z-index: 10;
         transition: all 0.8s;
         
     }
