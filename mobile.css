@@ -335,7 +335,7 @@
         position: fixed;
         /* bottom: -120px; */
         bottom: 0;
-        transform: translateY(200px);
+        transform: translateY(27vh);
         z-index: 10;
         transition: all 0.8s;
         
